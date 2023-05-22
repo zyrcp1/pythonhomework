@@ -1,3 +1,5 @@
+#递归求和
+
 def get(num):
     if(num>=1):
         res=num+get(num-1)
